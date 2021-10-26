@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lv1</title>
+    <style>
+    @media all and (max-width: 615.5px) {
+    .box{
+        display: flex;
+        flex-direction: row; 
+        flex-wrap: wrap; 
+        justify-content: space-between; 
+        align-items: center; 
+        align-content: center; 
+    }
+
+    .d1{
+        width: 108px;
+        height: 78px;
+        padding:20px;
+        border: 1px;
+        border-style: solid;
+        border-color: #f00;
+        order: 2;
+        margin-bottom: 10px;
+        
+    }
+    .d2{
+        width: 108px;
+        height: 58px;
+        padding:20px;
+        border: 1px;
+        border-style: solid;
+        border-color: #f00;
+        order: 3;
+        margin-bottom: 10px;
+    }
+    .d3{
+        width: 108px;
+        height: -2px;
+        padding:20px;
+        border: 1px;
+        border-style: solid;
+        border-color: #f00;
+        order: 4;
+        margin-bottom: 10px;
+    }
+    .d4{
+        width: 108px;
+        height: 158px;
+        padding:20px;
+        border: 1px;
+        border-style: solid;
+        border-color: #00f;
+        order: 1;
+        margin-bottom: 10px;
+    }
+        
+    }
+    @media all and (min-width: 615.5px){
+    .box{
+    display: flex;
+    flex-direction: row; /*设置主轴的方向*/
+    flex-wrap: wrap; /* 设置子元素是否可以换行 */
+    justify-content: space-between; /* 规定主轴上的对齐方式 */
+    align-items: center; /* 规定交叉轴上的对齐方式*/
+    align-content: center; /* 规定出现多根轴线时的对齐方式 仅有一根轴线时该属性无效*/
+    }
+
+    .d1{
+        width: 108px;
+        height: 78px;
+        padding:20px;
+        border: 1px;
+        border-style: solid;
+        border-color: #f00;
+        
+    }
+    .d2{
+        width: 108px;
+        height: 58px;
+        padding:20px;
+        border: 1px;
+        border-style: solid;
+        border-color: #f00;
+    }
+    .d3{
+        width: 108px;
+        height: -2px;
+        padding:20px;
+        border: 1px;
+        border-style: solid;
+        border-color: #f00;
+    }
+    .d4{
+        width: 108px;
+        height: 158px;
+        padding:20px;
+        border: 1px;
+        border-style: solid;
+        border-color: #00f;
+    }
+    }
+    </style>
+</head>
+<body>
+    <div class = box>
+        <div class="d1"></div>
+        <div class="d2"></div>
+        <div class="d3"></div>
+        <div class="d4"></div>
+    </div>
+</body>
+</html>
