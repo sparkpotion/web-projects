@@ -4,7 +4,6 @@ let obj = {name:"Billy",age:21,gender:'male'};
 // 手写一个复制函数
 function copy(insertObj){
     let newObj = {};
-  	//for-in循环遍历的是传入对象的属性，使用中括号语法可以访问属性，并将属性存到空对象的属性上
     newObj = insertObj;
     return newObj;
 }
